@@ -1,0 +1,17 @@
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+
+body {
+    background: #f4f4f4;
+  }
+  
+  .banner {
+    background: #143f5c;
+    background: -webkit-linear-gradient(to right, #086A87, #0B3861,#086A87);
+    background: linear-gradient(to right, #086A87, #0B3861, #086A87);
+  }

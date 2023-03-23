@@ -1,0 +1,31 @@
+
+/*para color de cuerpo*/
+body {
+    background: linear-gradient(70deg, white, white);
+    color: #0B3861;;
+    min-height: 100vh;
+  }
+  
+  code {
+    background: #fff;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin: 0 0.3rem;
+  }
+
+  .navbar-expand-lg{
+    background: #767a58;
+  }
+
+  .logo{
+    height: 60px;
+    width: 120px;
+  }
+
+  .nav{
+    background: #357585;
+    color: white;
+  
+    
+ 
+}
