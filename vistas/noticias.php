@@ -35,11 +35,6 @@ require('header.php');
 </div>
 </center>
 
-                 
-                
-
-
-  
                   </div>
                 </div>
               </div>
