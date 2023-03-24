@@ -12,9 +12,9 @@ body {
     border-radius: 0.2rem;
     margin: 0 0.3rem;
   }
-
+/*color del header*/
   .navbar-expand-lg{
-    background: #767a58;
+    background: #54626F;
   }
 
   .logo{

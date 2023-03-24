@@ -34,7 +34,7 @@
               <li class="nav-item"><a href="proyectos.php" class="nav-link">Proyectos</a></li>
               <li class="nav-item"><a href="Nosotros.php" class="nav-link">Nosotros</a></li>
               <li class="nav-item"><a href="noticias.php" class="nav-link">Noticias</a></li>
-              <li class="nav-item"><a href="informacion.php" class="nav-link">Mas informacion</a></li>
+             
 
             </ul>
           </div>
