@@ -2,8 +2,14 @@
 /*para color de cuerpo*/
 body {
     background: linear-gradient(70deg, white, white);
-    color: #0B3861;;
+    color: #fdfdfd;;
     min-height: 100vh;
+  }
+  .nav,div{
+    
+  }
+  #text-uppercase{
+    color:#f6faff
   }
   
   code {
@@ -14,16 +20,17 @@ body {
   }
 /*color del header*/
   .navbar-expand-lg{
-    background: #54626F;
+    background: #f6faff;
   }
 
   .logo{
     height: 60px;
     width: 120px;
+
   }
 
   .nav{
-    background: #357585;
+    background: #f8feff;
     color: white;
   
     

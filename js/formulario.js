@@ -16,6 +16,6 @@
 
     function verreporte(){
       alert("Entro a ver el reporte");
-     //  window.open('../reportes/rptproducto.php', '_blank');
+      window.open('../reportes/rptproducto.php', '_blank');
    }
     

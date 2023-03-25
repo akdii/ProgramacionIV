@@ -15,6 +15,19 @@
     <link rel="stylesheet" href="css/style.css">
      
     <title>Inmobiliaria</title>
+    <script src="../dist/js/bootbox.min.js"></script> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+
+  <link rel="stylesheet" href="../plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="../plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="../plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-Teal">
@@ -23,17 +36,19 @@
             <!-- Logo Image -->
             <a href="index.php" class="nav-link"><img src="img/logo.png"  width="45" alt="" class="logo"></a>
             <!-- Logo Text -->
-            <span class="text-uppercase font-weight-bold">INSA</span>
+        
           </a>
       
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active"><a href="index.php" class="nav-link">Inicio <span class="sr-only">(current)</span></a></li>
-              <li class="nav-item"><a href="formulario.php" class="nav-link">Agendar Cita</a></li>
+              <li class="nav-item"><a href="cita.php" class="nav-link">Agendar Cita</a></li>
               <li class="nav-item"><a href="propiedades.php" class="nav-link">Propiedades</a></li>
               <li class="nav-item"><a href="proyectos.php" class="nav-link">Proyectos</a></li>
               <li class="nav-item"><a href="Nosotros.php" class="nav-link">Nosotros</a></li>
               <li class="nav-item"><a href="noticias.php" class="nav-link">Noticias</a></li>
+              <li class="nav-item"><a href="formulario.php" class="nav-link">Contactos</a></li>
+              <li class="nav-item"><a href="usuario.php" class="nav-link">usuario</a></li>
              
 
             </ul>

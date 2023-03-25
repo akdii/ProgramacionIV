@@ -4,7 +4,6 @@ require('header.php');
 
 
 
-<th><img src="img/imagenprin.jpeg" width="1900" height="1000"><br>
 </div>
 
 
@@ -13,11 +12,12 @@ require('header.php');
                
                     </div>
             </div>
-          
+            
                
             </div>
         </div>
     </div>
+    <img class="img-fluid w-100" src="img/imagenp.png">
 </div>
 <?php
 require('footer.php');

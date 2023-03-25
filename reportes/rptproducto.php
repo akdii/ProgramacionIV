@@ -34,6 +34,39 @@ $pdf->Ln(10);
 
  
 $pdf->Ln(10);
+
+$pdf->SetFillColor(232,232,232);
+$pdf->Cell(30,6,'',0,0,'C');
+$pdf->SetFont('Arial','B',10);
+$pdf->Cell(25,6,'rtn',1,0,'C',1);
+$pdf->Cell(25,6,'telefono',1,0,'C',1);
+$pdf->Cell(40,6,'direccion',1,0,'C',1);
+$pdf->Cell(25,6,'fecha',1,0,'C',1);
+
+
+ 
+$pdf->Ln(6);
+//Comenzamos a crear las filas de los registros según la consulta mysql
+require_once "../modulo/ejecutarSQL.php";
+
+$categoria=new ejecutarSQL();
+
+$rspta = $categoria->listar("SELECT * FROM `empresa` where condicion=1");
+
+//Table with 20 rows and 4 columns
+//codigo,producto,costo,precioventa,unidades,impuesto,totalinventario
+$pdf->SetWidths(array(25,25,40,25));
+
+$pdf->Cell(30,6,'',0,0,'C');
+
+while($reg= $rspta->fetch_object())
+{  
+    $nombre = $reg->rtn;
+ 
+ 	$pdf->SetFont('Arial','',7); 
+    $pdf->Row(array(utf8_decode($nombre),$reg->telefono,$reg->direccion,$reg->vence));
+}
+ 
  
 $pdf->SetFont('Arial','B',12);
 
